@@ -14,3 +14,8 @@
 span {
   margin-left: 15px;
 }
+
+.loaderWrap {
+  display: flex;
+  justify-content: center;
+}
