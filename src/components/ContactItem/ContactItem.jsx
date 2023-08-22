@@ -11,7 +11,7 @@ const ContactItem = ({ contact }) => {
   return (
     <li className={css.listItem} key={contact.id}>
       <p>
-        {contact.name}: <span>{contact.number}</span>
+        {contact.name}: <span>{contact.phone}</span>
       </p>
       <button
         className={css.listBtn}

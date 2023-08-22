@@ -25,8 +25,8 @@ function ContactList() {
       ) : contacts.length === 0 && !error ? (
         <p>Add your first contact.</p>
       ) : (
-        filteredContacts.map(({ id, name, number }) => (
-          <ContactItem key={id} contact={{ id, name, number }} />
+        filteredContacts.map(({ id, name, phone }) => (
+          <ContactItem key={id} contact={{ id, name, phone }} />
         ))
       )}
     </ul>
